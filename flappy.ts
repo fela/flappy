@@ -143,7 +143,7 @@ class Game {
     }
     
     update(delta){
-        console.log(delta)
+        //console.log(delta)
         if (this.started) {
             this.bird.y += this.speedY*delta
             this.speedY += ACCELERATION*delta
@@ -154,7 +154,7 @@ class Game {
             }
             this.checkGameOver()
             if (this.gameOver) {
-                this.bird.rotation += ROTATION
+                this.bird.rotation += ROTATION*delta
             }
         }
         app.render()
