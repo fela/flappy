@@ -1,0 +1,21 @@
+{
+  "name": "pixi-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^5.3.7"
+  },
+  "devDependencies": {
+    "brfs": "^2.0.2",
+    "source-map-loader": "^2.0.0",
+    "transform-loader": "^0.2.4",
+    "ts-loader": "^8.0.14",
+    "webpack": "^5.16.0"
+  }
+}
